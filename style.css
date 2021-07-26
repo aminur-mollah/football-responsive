@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* 400size */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); */
+
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFFFFF;
+    }
+
+    header{
+
+        background: #2D25A0;
+        width: 1440px;
+        height: 670px;
+        
+    }
+
+    /* nav{
+        width: 1440px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+        margin-bottom: 0px;
+    }
+    nav a{text-decoration: none;
+        color: white;
+        margin-right: 15px;
+
+    } */
+
+    .login-button {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin: 0px ;
+        margin-lef: 0px;
+        border: 1px solid red;
+    }
+
+    .top-player{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .top-player h1{
+        margin-left: 50px;
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+        text-align: left;
+        width: 485px;
+        height: 230px;
+    }
+
+    .live-button {
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px 10px;
+        margin: 50px ;
+        margin-lef: 0px;
+        border: 1px solid red;
+    }
+
+
+    .top-player img{
+        margin-top: 150px;
+        margin-right: 100px;
+        width: 540px;
+        height: 430px;
+    }
+
+    .ball:hover img{
+        transform: scale(1.2);
+        transition: transform 1.5s ease-in-out;
+    }
+
+    /* .half-width{
+        display: flex;
+        width: 50%;
+    } */
+
+
+    .photo-album{
+        margin: 200px 200px 100px 100px;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+
+    }
+    .photo-album img{
+        width: 100%;
+        height: 256px;
+        justify-content: center;
+        
+        
+        
+    }
+
+    .photo-album h2{
+        font-size: 28px;
+    }
+    .photo-album p{
+        font-size: 16px;
+    }
+
+
+    .photo-frame{
+        display: flex;
+        border: 2px solid whitesmoke;
+       background-color: white;
+       padding-top: 10px 5px 5px 10px;
+        width: 330px;
+        height: 474px;
+        margin: 10px;
+    }
+
+    .photo{
+        padding: 5px;
+    }
